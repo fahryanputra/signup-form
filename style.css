@@ -32,12 +32,12 @@ h2 {
     height: 6rem;
     width: 100%;
     position: relative;
-    top: 5rem;
+    top: 2rem;
 }
 
 .left-image > .credit {
-    position: relative;
-    top: 80vh;
+    position: absolute;
+    top: 95vh;
 }
 
 .right-form {
@@ -71,7 +71,11 @@ h2 {
     flex: auto;
 }
 
-.form-content > label{
+.form-content > label {
     display: block;
     flex: none;
+}
+
+.submit-section {
+    margin-top: 1rem;
 }
