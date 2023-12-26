@@ -107,6 +107,16 @@ h2 {
     flex: none;
 }
 
+.form-content > input {
+    border: 2px #E5E7EB solid;
+    outline: none;
+}
+
+.form-content > input:focus {
+    border: 2px #86B6F6 solid;
+    box-shadow: 3px 3px 8px hsl(0deg 0% 0% / 0.38);
+}
+
 .submit-section {
     padding: 1rem;
 }
