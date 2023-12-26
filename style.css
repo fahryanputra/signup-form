@@ -36,12 +36,25 @@ h2 {
     width: 100%;
     position: relative;
     top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-container > img {
+    width: 80px;
+    height: 80px;
+}
+
+.icon-container > p {
+    color: #fafafa;
+    font-size: 3rem;
 }
 
 .left-image > .photo-credit {
     background-color: rgba(0, 0, 0, 0.6);
     position: relative;
-    top: 73vh;
+    top: 80vh;
     width: 100%;
 }
 
@@ -60,7 +73,7 @@ h2 {
     width: 60vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding: 1rem 0rem;
 }
 
 .right-form > .form-container {
@@ -68,15 +81,14 @@ h2 {
     box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
     height: 20rem;
     width: 100%;
-    top: 11rem;
     display: flex;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .right-form > .form-header {
     font-size: 18px;
-    padding: 2rem;
+    padding: 0rem 1rem;
 }
 
 .form-group {
@@ -96,7 +108,7 @@ h2 {
 }
 
 .submit-section {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .submit-section > button {
@@ -110,6 +122,17 @@ h2 {
     font-size: 15px;
     font-weight: 800;
     color: #fafafa;
+    cursor: pointer;
+    position: relative;
+}
+
+.submit-section > button:hover {
+    background-color: #6DB9EF;
+}
+
+.submit-section > button:active {
+    background-color: #6DB9EF;
+    top: 2px;
 }
 
 .submit-section > p > a{
