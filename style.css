@@ -117,6 +117,10 @@ h2 {
     box-shadow: 3px 3px 8px hsl(0deg 0% 0% / 0.38);
 }
 
+.form-content > .error {
+    border: 2px #bb2124 solid;
+}
+
 .submit-section {
     padding: 1rem;
 }
@@ -149,6 +153,9 @@ h2 {
     text-decoration: none;
 }
 
-.submit-section > .password-confirmation {
+.password-confirmation {
+    margin: 0;
+    margin-top: .5rem;
     color: #bb2124;
+    font-size: 12px;
 }
